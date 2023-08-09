@@ -12,7 +12,7 @@ import numpy as np
 import plotly.express as px
 from scipy import stats
 from scipy.stats import chi2_contingency
-path = '/Users/sophiabao/文件/onlineclasses/DataQuest/CaseStudy2/'
+path = ''
 stroke_raw = pd.read_csv(path+'healthcare-dataset-stroke-data.csv')
 stroke = pd.read_csv(path+'healthcare-dataset-stroke-data.csv')
 
