@@ -12,7 +12,7 @@ import numpy as np
 import plotly.express as px
 from scipy import stats
 from scipy.stats import chi2_contingency
-path = ''
+path = '/Users/sophiabao/文件/onlineclasses/DataQuest/CaseStudy2/'
 stroke_raw = pd.read_csv(path+'healthcare-dataset-stroke-data.csv')
 stroke = pd.read_csv(path+'healthcare-dataset-stroke-data.csv')
 
@@ -426,4 +426,6 @@ if selected=="Conclusion":
 
 if selected=="Bibliography":
     st.title("Bibliography")
-    st.markdown("""Works Cited “Airplane Crashes and Fatalities.” Www.kaggle.com, www.kaggle.com/datasets/thedevastator/airplane-crashes-and-fatalities.""") # Add harry case study to bibliography.
+    st.markdown("""Works Cited:
+                FEDESORIANO. “Stroke Prediction Dataset.” Www.kaggle.com, 2021, www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset.
+                Harry. “Super Market Sales.” Streamlit.app, 2023, harry9087655-naive-bayes-model-for-profit-pr-case-study2-ky0nda.streamlit.app. Accessed 13 Aug. 2023.""") # Add harry case study to bibliography.
